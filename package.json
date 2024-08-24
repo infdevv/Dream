@@ -1,0 +1,22 @@
+{
+  "name": "dreams",
+  "version": "1.0.0",
+  "description": "A test of a one file proxy using Ultraviolet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "proxy",
+    "anti-censorship"
+  ],
+  "author": "Glitch Network",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/static": "^7.0.4",
+    "@tomphttp/bare-server-node": "^2.0.4",
+    "fastify": "^4.28.1",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
